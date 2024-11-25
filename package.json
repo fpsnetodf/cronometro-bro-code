@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.4.15"
+  },
+  "scripts": {
+    "watch": "npx tailwindcss -i input.css -o tailwind.css --watch",
+    "start": "node --watch crono.js"
+  }
+}
